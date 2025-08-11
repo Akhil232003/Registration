@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewRegistration</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <div id="parent">
+        <h2 id="heading">Registration Form</h2>
+       <div class="first_div">
+           <div class="child_div">
+                 <label for="first" class="label_class">First Name</label><br>
+                 <input type="text" name="firstname_inputbox" id="first" class="fname_inputbox">
+           </div>
+            <div child="child_div">
+                <label for="second" class="label_class">Last Name</label><br>
+                 <input type="text" name="lastname_inputbox" id="second" class="fname_inputbox">
+            </div>
+       </div>
+        <div class="second_div">
+            <div class="second_child_div">
+                <label id="birthday_label">Birthday</label><br>
+                <input type="date" id="date_inputbox" class="fname_inputbox">
+            </div>
+            <div class="second_child_div">
+                <label id="birthday_label">Gender</label><br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </div>
+            
+        </div>
+       <div class="third_div">
+            <div class="third_child_div">
+                    <label for="email_inputbox" id="email_label">Email</label><br>
+                    <input type="email" name="email" id="email_inputbox" class="fname_inputbox">
+            </div>
+            <div class="third_child_div">
+                     <label for="phone" id="num_label">Phone Number</label><br>
+                    <input type="tel" name="num_inputbox" id="phone" class="fname_inputbox">
+            </div>
+           
+       </div>
+            <label for="subject_inputbox" class="sub">Subject</label><br>
+            <div class="sub">
+                <select name="subject_dropdownlist" id="drop_down">
+                    <option>Choose Option </option>
+                    <option>Maths</option>
+                    <option>Physics</option>
+                    <option>Chemistry</option>
+                    <option>Zoology</option>
+                    <option>English</option>
+
+            </select>
+            </div>
+        <br>
+        <input type="submit" value="Submit" id="submit_button">
+    </div>
+</body>
+</html>
