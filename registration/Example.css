@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top right,blue,green);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.main_container{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border-radius: 15px;
+}
+#mark{
+    margin-top: 10px;
+    margin-left: 95%;
+    /* background-image: linear-gradient(to top right,blue,green);
+    background-clip: text;
+    color: transparent; */
+    /* background-color: red; */
+    color: red;
+}
+#heading{
+    text-align: center;
+    background-image: linear-gradient(to right,blue,green);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+
+}
+.child_division{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.inputs{
+    width: 350px;
+    height: 40px;
+    margin-left: 70px;
+    padding-left: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border-bottom: 3px solid lightgreen;
+}
+#submit_button{
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    margin-left: 100px;
+    background-image: linear-gradient(to right,blue,green);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: all 500ms;
+}
+#checking_paragraph{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -18px;
+    font-size: 10px;
+    margin-left: 170px;
+
+}
+#signin_anchor{
+    font-size: 15px;
+    margin-top: -45px;
+    margin-left: 58%;
+}
+#submit_button:active{
+    transform: scale(0.8);
+}
+#eye_icon{
+    margin-top: -50px;
+    margin-left: 80%;
+    font-size: 10px;
+}
+/* .inputs::placeholder{
+    color: blue;
+    background-image: linear-gradient(blue,green);
+    background-clip: text;
+    color: transparent;
+} */
+#country_inputbox{
+    color: gray;
+}
